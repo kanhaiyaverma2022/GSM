@@ -47,7 +47,7 @@ const App = () => {
         
         <Routes>
           <Route 
-            path="/form" 
+            path="/" 
             element={<Final 
               setRefresh={ setRefresh }
               fetchTeamsPoints={fetchTeamsPoints} />} 

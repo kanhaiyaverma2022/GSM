@@ -88,7 +88,8 @@ console.log(addGap(teamsPoints));
       {/* <button onClick={handleRefresh}>Reload</button> */}
       <div className='flex justify-between text-4xl items-center px-4 py-1 cursor-pointer' onClick={()=>window.location.reload()}>
       <div className='text-white text-left font-extrabold  text-4xl '>
-        Remaining Points: {totalPoints?.totalPoints}/605
+     
+        Remaining Points: {totalPoints?.totalPoints>=0 ? totalPoints?.totalPoints : 0}/605
       </div>
       <div className='flex gap-28 text-white text-left font-extrabold py-2 px-4'>
         <h1>Points</h1>
